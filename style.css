@@ -1,0 +1,453 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f5ef;
+  color: #111;
+}
+
+header {
+  background-color: #f4f5ef;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #111;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.home-page {
+  padding: 0;
+  text-align: left;
+}
+
+.home-card {
+  width: 100%;
+  margin: 0;
+  background-color: #f4f5ef;
+  color: #111;
+  padding: 30px 70px 0;
+  box-shadow: none;
+}
+
+.home-card h1 {
+  font-size: 68px;
+  line-height: 1.05;
+  margin: 10px 0 50px;
+  text-align: left;
+  max-width: 900px;
+}
+
+.intro-section {
+  display: flex;
+  gap: 90px;
+  align-items: flex-start;
+  min-height: auto;
+  margin-top: -10px;
+  margin-bottom: 120px;
+}
+
+.intro-image {
+  width: 720px;
+  height: 390px;
+  background-color: #06152b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.intro-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.intro-text {
+  width: 520px;
+  text-align: left;
+}
+
+.intro-text h2 {
+  font-size: 42px;
+  margin: 0 0 24px;
+}
+
+.intro-text p {
+  margin: 0 0 18px;
+  color: #555;
+  line-height: 1.7;
+  font-size: 24px;
+}
+
+.platforms-section {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.platforms-section h2 {
+  font-size: 64px;
+  font-weight: 300;
+  color: #2f4ea1;
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+.platform-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.product-card {
+  width: 420px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+  border-radius: 18px;
+}
+
+.product-card p {
+  font-size: 24px;
+  color: #2f4ea1;
+  margin-top: 18px;
+  line-height: 1.3;
+}
+
+.links-section {
+  width: 470px;
+  margin-top: 35px;
+  margin-bottom: 90px;
+}
+
+.links-section a {
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  margin: 0;
+  border-radius: 0;
+  background: none;
+  color: #111;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #d9d9d9;
+  text-align: left;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 40px;
+}
+
+.socials {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.socials a {
+  background: none;
+  color: #8a8a8a;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  font-size: 13px;
+}
+
+.company-logo {
+  width: 220px;
+  height: 60px;
+  border: none;
+  background: none;
+  color: #7a7a7a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.company-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+/* Services page */
+.services-page {
+  padding: 40px 70px 80px;
+}
+
+.services-hero {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.services-hero h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.services-hero p {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 22px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  width: 380px;
+}
+
+.service-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+}
+
+.service-card h2 {
+  font-size: 32px;
+  margin: 18px 0 12px;
+  color: #2f4ea1;
+}
+
+.service-card p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Analysts page */
+.analysts-page {
+  padding: 40px 70px 80px;
+}
+
+.analyst-row {
+  margin-bottom: 90px;
+}
+
+.analyst-row h1 {
+  font-size: 52px;
+  margin-bottom: 30px;
+}
+
+.analyst-content {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.analyst-image {
+  width: 420px;
+  height: 260px;
+  overflow: hidden;
+  background-color: #dbeec2;
+}
+
+.analyst-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.analyst-text {
+  width: 420px;
+}
+
+.analyst-text h2 {
+  font-size: 34px;
+  margin: 0 0 20px;
+}
+
+.analyst-text p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Contact page */
+.contact-page {
+  padding: 40px 70px 80px;
+  text-align: center;
+}
+
+.contact-page h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.contact-details p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.contact-top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+  margin-top: 40px;
+}
+
+.contact-map {
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+}
+
+.contact-bottom {
+  margin-top: 70px;
+}
+
+.contact-socials {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.contact-socials a {
+  display: inline-block;
+  padding: 12px 18px;
+  background-color: #14c2de;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.contact-logo img {
+  width: 260px;
+  max-width: 100%;
+}
+
+.contact-note {
+  margin-top: 60px;
+}
+
+.contact-note p {
+  font-size: 18px;
+  color: #222;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .intro-section,
+  .analyst-content,
+  .contact-top,
+  .bottom-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .platform-grid,
+  .services-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro-image,
+  .intro-text,
+  .service-card,
+  .product-card,
+  .analyst-image,
+  .analyst-text,
+  .contact-map {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .intro-image {
+    height: 320px;
+  }
+
+  .home-card h1,
+  .services-hero h1,
+  .contact-page h1,
+  .analyst-row h1 {
+    font-size: 42px;
+  }
+
+  .platforms-section h2 {
+    font-size: 44px;
+  }
+
+  .intro-text h2 {
+    font-size: 32px;
+  }
+
+  .intro-text p,
+  .services-hero p,
+  .service-card p,
+  .analyst-text p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 700px) {
+  .home-card,
+  .services-page,
+  .analysts-page,
+  .contact-page {
+    padding: 20px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px 10px;
+  }
+
+  .home-card h1,
+  .services-hero h1,
+  .contact-page h1,
+  .analyst-row h1 {
+    font-size: 34px;
+  }
+
+  .platforms-section h2 {
+    font-size: 34px;
+  }
+
+  .intro-text h2,
+  .service-card h2,
+  .analyst-text h2 {
+    font-size: 28px;
+  }
+
+  .intro-image {
+    height: 240px;
+  }
+
+  .product-card img,
+  .service-card img,
+  .analyst-image {
+    height: 220px;
+  }
+
+  .contact-socials {
+    flex-wrap: wrap;
+  }
+}
