@@ -474,4 +474,7 @@ nav a {
 .contact-page .bottom-section {
   margin-top: auto;
 }
+.contact-spacer {
+  flex: 1;
+}
 }
