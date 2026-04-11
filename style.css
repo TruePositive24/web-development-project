@@ -290,13 +290,13 @@ nav a {
   color: #555;
 }
 
-/* Contact page */
 .contact-page {
   padding: 40px 70px 80px;
   text-align: center;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-
 .contact-page h1 {
   font-size: 56px;
   margin-bottom: 20px;
