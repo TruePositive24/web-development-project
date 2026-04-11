@@ -147,10 +147,12 @@ nav a {
 .bottom-section {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  margin-top: 40px;
+  align-items: center;
+  width: 100%;
+  margin-top: 90px;
+  padding-top: 20px;
+  border-top: 1px solid #d9d9d9;
 }
-
 .socials {
   display: flex;
   gap: 12px;
